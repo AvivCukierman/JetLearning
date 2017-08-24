@@ -12,7 +12,6 @@ setupATLAS
 rcSetup Base,2.4.33
 git clone https://github.com/UCATLAS/xAODAnaHelpers
 git clone https://github.com/AvivCukierman/JetLearning
-mv Voronoi_xAOD MyAnalysis
 rc checkout_pkg atlasoff/AsgExternal/Asg_FastJet/tags
 rc checkout_pkg atlasoff/AsgExternal/Asg_FastJetContrib/tags
 rc find_packages
